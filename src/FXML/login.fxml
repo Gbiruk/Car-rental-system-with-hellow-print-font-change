@@ -10,19 +10,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
-      <JFXTextField focusColor="#6f86c7" layoutX="180.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="UserName" unFocusColor="#999999">
+      <JFXTextField  focusColor="#6f86c7" layoutX="180.0" layoutY="123.0" prefHeight="26.0" prefWidth="230.0" promptText="UserName" style="-fx-text-inner-color: #a0a2ab;" unFocusColor="#999999">
          <font>
             <Font size="14.0" />
          </font>
       </JFXTextField>
-      <JFXPasswordField layoutX="179.0" layoutY="188.0" prefHeight="26.0" prefWidth="230.0" promptText="password" unFocusColor="#b4b4b4">
+      <JFXPasswordField layoutX="179.0" layoutY="188.0" prefHeight="26.0" prefWidth="230.0" promptText="password" style="-fx-text-inner-color: #a0a2ab;" unFocusColor="#b4b4b4">
          <font>
             <Font size="14.0" />
          </font>
       </JFXPasswordField>
-      <JFXButton layoutX="492.0" layoutY="23.0" prefHeight="34.0" prefWidth="79.0" style="-fx-background-color: #151928; -fx-border-color: #a0a2ab;" text="Sign Up" textFill="#a0a2ab">
+      <JFXButton fx:id="signUp" layoutX="492.0" layoutY="23.0" onAction="#navigate" prefHeight="34.0" prefWidth="79.0" style="-fx-background-color: #151928; -fx-border-color: #a0a2ab;" text="Sign Up" textFill="#a0a2ab">
          <font>
             <Font size="14.0" />
          </font>
