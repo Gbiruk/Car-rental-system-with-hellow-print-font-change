@@ -13,7 +13,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
-      <JFXTextField  layoutX="161.0" layoutY="103.0"  prefHeight="26.0" prefWidth="234.0" promptText="Enter your Username" unFocusColor="#a0a2ab">
+      <JFXTextField fx:id="username1" layoutX="161.0" layoutY="103.0" onAction="#navigate" prefHeight="26.0" prefWidth="234.0" promptText="Enter your Username" unFocusColor="#a0a2ab">
          <font>
             <Font size="14.0" />
          </font>
@@ -24,7 +24,7 @@
          </toggleGroup>
       </JFXRadioButton>
       <JFXRadioButton layoutX="278.0" layoutY="218.0" text="Female" textFill="#a0a2ab" toggleGroup="$Gender" />
-      <JFXTextField layoutX="169.0" layoutY="246.0" prefHeight="26.0" prefWidth="234.0" promptText="Enter Your Location" unFocusColor="#a0a2ab" />
+      <JFXTextField fx:id="username3" layoutX="169.0" layoutY="246.0" onAction="#initailize" prefHeight="26.0" prefWidth="234.0" promptText="Enter Your Location" unFocusColor="#a0a2ab" />
       <JFXButton layoutX="199.0" layoutY="298.0" prefHeight="26.0" prefWidth="175.0" style="-fx-background-color: #2196f3;" text="SignUp" textFill="#c7c2c2">
          <font>
             <Font size="14.0" />
@@ -67,6 +67,6 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <JFXPasswordField fx:id="passwod1" layoutX="163.0" layoutY="170.0" prefHeight="26.0" prefWidth="234.0" promptText="Enter Your Password" />
+      <JFXPasswordField fx:id="passwod1" layoutX="163.0" layoutY="170.0" onAction="#initailize" prefHeight="26.0" prefWidth="234.0" promptText="Enter Your Password" />
    </children>
 </AnchorPane>
