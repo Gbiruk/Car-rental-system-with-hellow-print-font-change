@@ -61,6 +61,7 @@ public class SignUpController implements Initializable {
   login.setScene(scene);
   login.show();
   login.setResizable(false);
+  System.out.print("hellow");
   }
 
   @Override

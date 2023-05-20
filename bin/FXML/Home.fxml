@@ -6,10 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <JFXButton contentDisplay="TOP" layoutX="308.0" layoutY="29.0" prefHeight="201.0" prefWidth="188.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="WHITE">
+      <JFXButton contentDisplay="TOP" layoutX="231.0" layoutY="79.0" prefHeight="365.0" prefWidth="376.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="WHITE">
          <graphic>
             <ImageView fitHeight="157.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -21,9 +20,9 @@
             <Font name="Harlow Solid Italic" size="19.0" />
          </font>
       </JFXButton>
-      <JFXButton contentDisplay="TOP" layoutX="41.0" layoutY="251.0" prefHeight="201.0" prefWidth="188.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="WHITE">
+      <JFXButton contentDisplay="TOP" layoutX="29.0" layoutY="341.0" prefHeight="115.0" prefWidth="110.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="WHITE">
          <graphic>
-            <ImageView fitHeight="157.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="79.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@i.jpg" />
                </image>
@@ -33,9 +32,9 @@
             <Font name="Harlow Solid Italic" size="19.0" />
          </font>
       </JFXButton>
-      <JFXButton contentDisplay="TOP" layoutX="41.0" layoutY="29.0" prefHeight="201.0" prefWidth="188.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="#fffdfd">
+      <JFXButton contentDisplay="TOP" layoutX="29.0" layoutY="170.0" prefHeight="107.0" prefWidth="110.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="#fffdfd">
          <graphic>
-            <ImageView fitHeight="157.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="103.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@i.jpg" />
                </image>
@@ -45,17 +44,10 @@
             <Font name="Harlow Solid Italic" size="19.0" />
          </font>
       </JFXButton>
-      <JFXButton contentDisplay="TOP" layoutX="308.0" layoutY="251.0" prefHeight="201.0" prefWidth="188.0" style="-fx-background-color: #373C4F;" text="Toyota" textFill="WHITE">
-         <graphic>
-            <ImageView fitHeight="157.0" fitWidth="149.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@i.jpg" />
-               </image>
-            </ImageView>
-         </graphic>
-         <font>
-            <Font name="Harlow Solid Italic" size="19.0" />
-         </font>
-      </JFXButton>
+      <ImageView fitHeight="78.0" fitWidth="82.0" layoutX="29.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@next.PNG" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

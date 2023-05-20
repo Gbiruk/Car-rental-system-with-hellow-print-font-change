@@ -65,8 +65,8 @@ public class LoginController implements Initializable {
      @Override
      public void initialize(URL arg0, ResourceBundle arg1) {
            // TODO Auto-generated method stub
-     //     username.setStyle("-fx-text-inner-color:#a0a2ab");
-     //      password.setStyle("-fx-text-inner-color:#a0a2ab");
+         username.setStyle("-fx-text-inner-color:#a0a2ab");
+          password.setStyle("-fx-text-inner-color:#a0a2ab");
      }
 
 }
